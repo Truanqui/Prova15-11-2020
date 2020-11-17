@@ -22,6 +22,7 @@ background-color: #dc1f25;
 border-radius: 40px;
 width: 800px;
 margin: 0% auto;
+width:10px ;
 }
 .geral{
     margin: 0 auto;
@@ -36,19 +37,24 @@ margin: 0% auto;
     flex-direction: row-reverse;
     align-items: center;
 }
-.txt{
+#txt{
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: column;
-    text-align: right;
+    text-align: left;
 }
 h2{
-color: white;
+color: black;
 font-size: 35px;
 font-weight: bolder;
+
 }
 p{
-    background-color:black;
+    padding: 15px;
+    background-color:rgba(0, 0, 0, 0.719);
     color: white;
     font-size: 25px;
+    text-indent: 30px;
+    text-align: justify;
+    border-radius: 8px;
 }

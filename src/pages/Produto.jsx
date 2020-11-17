@@ -5,7 +5,7 @@ import homemaranha from '../components/Image/homemaranha.jpg';
 import godofwar from '../components/Image/godofwar.jpg';
 import injustice2 from '../components/Image/injustice2.jpg';
 import Caixa from './Caixa/Caixa';
-import Carrinho from './BotaoCarrinho/Carrinho';
+import Carrinho from './Botoes/BCarrinho';
 
 
 function Produto(){
@@ -28,7 +28,7 @@ function Produto(){
                         <img src={gta5} alt="imagem-g" width="250px" />
                     </div>
                 </div>
-                <div className="texto"> 
+                <div className="tex"> 
                     <h2>Pacote 2D(2 dias)</h2>
                     <div className="preco">
                         <h1>R$ 9,99</h1>

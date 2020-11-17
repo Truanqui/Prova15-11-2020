@@ -1,9 +1,9 @@
 import React from 'react';
-import './Carrinho.css';
+import './BEntrar.css';
 
-function Carrinho(){
-    function handleClick(Adicionar){
-     Adicionar.preventDefault();
+function BEntrar(){
+    function handleClick(acao){
+     acao.preventDefault();
      window.alert('Está pagina ainda não está disponível');
      console.log("Está pagina ainda não está disponível");   
     }
@@ -14,9 +14,9 @@ function Carrinho(){
                 <span></span>
                 <span></span>
                 <span></span>
-                <strong>Adicionar Carrinho</strong>                               
+                <strong>ENTRAR</strong>                               
             </a>
         </button>
     );
 } 
-export default Carrinho;
+export default BEntrar;

@@ -11,21 +11,7 @@ function Home(){
                     <div className="features">
                         <div id="txt">
                             <h2>Como funciona?</h2> 
-                            <HomeTexto texto="Texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto 
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto
-                             texto texto texto texto texto texto texto texto texto" />
+                            <HomeTexto/>
                         </div>
                     </div>
                 </div>  

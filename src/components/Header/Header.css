@@ -1,11 +1,9 @@
 body{
-    background-color:white;
+    background-color:red;
     margin: 0 auto;
-    background-image: url(https://cdn.discordapp.com/attachments/613766192129245346/777726110615470140/os-10-melhores-jogos-de-2018-na-opiniao-do-uol-jogos-1546887965085_v2_1920x1080.jpg);
+    background-image:url(../../components/Image/fundo.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1900px;
-    padding-bottom: 50px;
 }
 .caixa{
     background-color: white;

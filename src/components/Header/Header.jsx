@@ -14,7 +14,6 @@ function Header(){
                 <Menu/>
             </nav>
         </header>
-        <MenuHeader />
     </div>
     );
 }

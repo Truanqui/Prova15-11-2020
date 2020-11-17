@@ -16,8 +16,8 @@
 .imagens-p1, .texto{
     display: inline-block;
 }
- .texto{
-     color:white;
+ .tex{
+     color:red;
      float: right;
      font-family: Arial, Helvetica, sans-serif;
      width:200px;

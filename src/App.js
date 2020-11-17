@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Produto from './pages/Produto'
 import Conta from './pages/Conta';
 import Suporte from './pages/Suporte';
+import Erro from './pages/Erro';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/produto" component={Produto} />
         <Route path="/conta" component={Conta} />
         <Route path="/suporte" component={Suporte} />
+        <Route component={Erro} />
       </Switch>
       <Footer />
     </Router>
